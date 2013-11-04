@@ -35,6 +35,7 @@ $(function () {
   $("button").click(function() {
     toggleButtonsOff();
     $(this).addClass("btn-primary");
+    chrome.browserAction.setIcon({path: ('/images/' + $(this).attr('id') + '-icon-48.png') });
 
     updateState($(this).attr('id'));
   });

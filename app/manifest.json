@@ -1,7 +1,7 @@
 {
     "name": "CPORD Status",
     "description": "Collect. Process. Organize. Review. Do. (one at a time)",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "manifest_version": 2,
     "icons": {
         "16": "images/icon-16.png",
